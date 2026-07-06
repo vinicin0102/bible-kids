@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Livros - Bíblia para Colorir</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: #FFF8F0;
+            color: #1E1B4B;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #7C3AED;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-family: 'Baloo 2', cursive;
+            margin: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .page-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+            text-align: center;
+            border: 1px solid rgba(124, 58, 237, 0.1);
+        }
+        .page-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px dashed #f0f0f0;
+        }
+        .page-info {
+            padding: 20px;
+        }
+        .page-info h3 {
+            font-family: 'Baloo 2', cursive;
+            margin: 0 0 10px;
+            color: #5B21B6;
+        }
+        .page-info p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .btn-print {
+            display: inline-block;
+            background: #F59E0B;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-print:hover {
+            background: #E88B00;
+            transform: translateY(-2px);
+        }
+        .btn-back {
+            display: inline-block;
+            margin-top: 30px;
+            color: #7C3AED;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📖 Seus Livros para Colorir</h1>
+    <p>Escolha um desenho, imprima e comece a diversão!</p>
+</header>
+
+<div class="container">
+    <div class="book-grid">
+        <div class="page-card">
+            <img src="images/sample_noah_ark.png" alt="Arca de Noé">
+            <div class="page-info">
+                <h3>A Arca de Noé</h3>
+                <p>Gênesis 6-9</p>
+                <a href="images/sample_noah_ark.png" target="_blank" class="btn-print">🖨️ Imprimir Desenho</a>
+            </div>
+        </div>
+
+        <div class="page-card">
+            <img src="images/sample_moses.png" alt="Moisés">
+            <div class="page-info">
+                <h3>Moisés no Cestinho</h3>
+                <p>Êxodo 2:1-10</p>
+                <a href="images/sample_moses.png" target="_blank" class="btn-print">🖨️ Imprimir Desenho</a>
+            </div>
+        </div>
+
+        <div class="page-card">
+            <img src="images/sample_david_goliath.png" alt="Davi e Golias">
+            <div class="page-info">
+                <h3>Davi e Golias</h3>
+                <p>1 Samuel 17</p>
+                <a href="images/sample_david_goliath.png" target="_blank" class="btn-print">🖨️ Imprimir Desenho</a>
+            </div>
+        </div>
+
+        <div class="page-card">
+            <img src="images/sample_daniel_lions.png" alt="Daniel">
+            <div class="page-info">
+                <h3>Daniel e os Leões</h3>
+                <p>Daniel 6</p>
+                <a href="images/sample_daniel_lions.png" target="_blank" class="btn-print">🖨️ Imprimir Desenho</a>
+            </div>
+        </div>
+
+        <div class="page-card">
+            <img src="images/sample_nativity.png" alt="Nascimento de Jesus">
+            <div class="page-info">
+                <h3>Nascimento de Jesus</h3>
+                <p>Lucas 2:1-20</p>
+                <a href="images/sample_nativity.png" target="_blank" class="btn-print">🖨️ Imprimir Desenho</a>
+            </div>
+        </div>
+    </div>
+    
+    <div style="text-align: center;">
+        <a href="index.html" class="btn-back">⬅️ Voltar para a página inicial</a>
+    </div>
+</div>
+
+</body>
+</html>

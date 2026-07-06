@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bíblia para Colorir - O livro infantil que ensina as histórias da Bíblia de forma divertida! Seus filhos vão colorir e aprender sobre as maiores histórias da Palavra de Deus.">
+    <meta name="keywords" content="bíblia infantil, livro para colorir, histórias da bíblia, livro cristão infantil, colorir bíblia">
+    <title>Bíblia para Colorir | Seus filhos vão aprender a Palavra de Deus brincando! 🎨✝️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@300;400;500;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="banner-content">
+            <span class="banner-icon">🔥</span>
+            <span>OFERTA ESPECIAL — <strong>Últimas unidades com desconto!</strong> O preço vai aumentar em breve!</span>
+            <span class="banner-icon">🔥</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">✝️</span>
+                <span class="logo-text">Bíblia para Colorir</span>
+            </a>
+            <div class="nav-links">
+                <a href="#preview">Prévia</a>
+                <a href="#historias">Histórias</a>
+                <a href="#ofertas">Ofertas</a>
+                <a href="#depoimentos">Depoimentos</a>
+            </div>
+            <a href="#ofertas" class="nav-cta">QUERO AGORA!</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-up">
+                    <span class="badge-star">⭐</span>
+                    <span>Mais de 5.000 famílias já aprovaram!</span>
+                </div>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    Seus filhos vão <span class="highlight">aprender a Bíblia</span> 
+                    enquanto se divertem <span class="highlight-2">colorindo!</span> 🎨
+                </h1>
+                <p class="hero-subtitle animate-fade-up delay-2">
+                    O livro infantil que transforma cada desenho em uma <strong>história bíblica narrada</strong>, 
+                    com passagens e ensinamentos que vão marcar o coração do seu filho para sempre. ✝️
+                </p>
+                <div class="hero-features animate-fade-up delay-3">
+                    <div class="hero-feature">
+                        <span class="feature-check">✅</span>
+                        <span>Histórias narradas</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="feature-check">✅</span>
+                        <span>Passagens bíblicas</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="feature-check">✅</span>
+                        <span>Desenhos encantadores</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="feature-check">✅</span>
+                        <span>Download imediato</span>
+                    </div>
+                </div>
+                <div class="hero-cta animate-fade-up delay-4">
+                    <a href="#ofertas" class="btn btn-primary btn-lg pulse-btn">
+                        <span>QUERO O MEU AGORA!</span>
+                        <svg class="btn-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <div class="hero-guarantee">
+                        <span>🔒</span>
+                        <span>Garantia de 7 dias ou seu dinheiro de volta</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-left delay-2">
+                <div class="book-showcase">
+                    <div class="book-glow"></div>
+                    <img src="images/book_mockup_hero.png" alt="Bíblia para Colorir - Livro infantil" class="book-img floating">
+                    <div class="book-sparkles">
+                        <span class="sparkle s1">✨</span>
+                        <span class="sparkle s2">⭐</span>
+                        <span class="sparkle s3">✨</span>
+                        <span class="sparkle s4">💫</span>
+                        <span class="sparkle s5">⭐</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="var(--bg-light)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Social Proof Bar -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="proof-items">
+                <div class="proof-item animate-on-scroll">
+                    <div class="proof-number" data-count="5247">0</div>
+                    <div class="proof-label">Famílias Felizes</div>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item animate-on-scroll">
+                    <div class="proof-number" data-count="4.9">0</div>
+                    <div class="proof-label">Avaliação ⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item animate-on-scroll">
+                    <div class="proof-number" data-count="100">0</div>
+                    <div class="proof-label">Histórias Bíblicas</div>
+                </div>
+                <div class="proof-divider"></div>
+                <div class="proof-item animate-on-scroll">
+                    <div class="proof-number" data-count="7">0</div>
+                    <div class="proof-label">Dias de Garantia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">🤔</span>
+                <h2 class="section-title">Você já se perguntou...</h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card animate-on-scroll">
+                    <div class="problem-icon">📱</div>
+                    <h3>Como tirar meu filho do celular?</h3>
+                    <p>Crianças passam horas em telas, sem aprender nada de valor. E se existisse algo que prendesse a atenção delas de verdade?</p>
+                </div>
+                <div class="problem-card animate-on-scroll">
+                    <div class="problem-icon">📖</div>
+                    <h3>Como ensinar a Bíblia para crianças?</h3>
+                    <p>A linguagem bíblica pode ser difícil para os pequenos. Como transformar essas lições em algo que eles entendam e amem?</p>
+                </div>
+                <div class="problem-card animate-on-scroll">
+                    <div class="problem-icon">🎨</div>
+                    <h3>Como unir diversão e aprendizado?</h3>
+                    <p>Crianças aprendem brincando! Mas encontrar material que una diversão com ensinamentos bíblicos é quase impossível...</p>
+                </div>
+            </div>
+            <div class="solution-reveal animate-on-scroll">
+                <div class="solution-arrow">👇</div>
+                <h3 class="solution-text">A resposta está no <span class="highlight">Bíblia para Colorir!</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">✨</span>
+                <h2 class="section-title">Como Funciona?</h2>
+                <p class="section-subtitle">Em 3 passos simples, seu filho mergulha na Palavra de Deus!</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-card animate-on-scroll">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">🎨</div>
+                    <h3>Colorir</h3>
+                    <p>Seu filho escolhe um dos lindos desenhos bíblicos e começa a colorir, desenvolvendo criatividade e coordenação motora.</p>
+                </div>
+                <div class="step-connector animate-on-scroll">
+                    <svg width="60" height="24" viewBox="0 0 60 24"><path d="M0,12 L50,12 M40,4 L52,12 L40,20" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round"/></svg>
+                </div>
+                <div class="step-card animate-on-scroll">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">📖</div>
+                    <h3>Ler a História</h3>
+                    <p>Cada desenho vem com a história bíblica narrada em linguagem infantil, com a passagem e o versículo correspondente.</p>
+                </div>
+                <div class="step-connector animate-on-scroll">
+                    <svg width="60" height="24" viewBox="0 0 60 24"><path d="M0,12 L50,12 M40,4 L52,12 L40,20" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round"/></svg>
+                </div>
+                <div class="step-card animate-on-scroll">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">❤️</div>
+                    <h3>Aprender</h3>
+                    <p>O ensinamento fica gravado no coração! A criança absorve valores cristãos enquanto se diverte colorindo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preview Section -->
+    <section class="preview-section" id="preview">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">📚</span>
+                <h2 class="section-title">Veja Algumas Páginas do Livro</h2>
+                <p class="section-subtitle">Cada página é uma experiência completa: desenho para colorir + história bíblica narrada!</p>
+            </div>
+            <div class="preview-carousel">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Card 1 - Noah -->
+                    <div class="preview-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/sample_noah_ark.png" alt="Arca de Noé para colorir" loading="lazy">
+                            <div class="card-badge">Gênesis 6-9</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>A Arca de Noé 🚢</h3>
+                            <p class="card-story">"Deus pediu a Noé que construísse um grande barco para salvar os animais do dilúvio. Noé obedeceu com fé, e Deus colocou um lindo arco-íris no céu como promessa de amor..."</p>
+                            <div class="card-verse">
+                                <span class="verse-icon">📜</span>
+                                <em>"E farei a minha aliança convosco" — Gênesis 9:11</em>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 - Moses -->
+                    <div class="preview-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/sample_moses.png" alt="Moisés no cestinho para colorir" loading="lazy">
+                            <div class="card-badge">Êxodo 2:1-10</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Moisés no Cestinho 👶</h3>
+                            <p class="card-story">"A mamãe de Moisés o colocou em um cestinho no rio para protegê-lo. A princesa do Egito o encontrou e cuidou dele. Deus tinha um plano enorme para aquele bebezinho..."</p>
+                            <div class="card-verse">
+                                <span class="verse-icon">📜</span>
+                                <em>"Porque eu bem sei os planos que tenho para vós" — Jeremias 29:11</em>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 - David -->
+                    <div class="preview-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/sample_david_goliath.png" alt="Davi e Golias para colorir" loading="lazy">
+                            <div class="card-badge">1 Samuel 17</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Davi e Golias ⚔️</h3>
+                            <p class="card-story">"Davi era apenas um menino pastor, mas com coragem e fé em Deus, ele enfrentou o gigante Golias! Com uma pedra e uma funda, ele mostrou que Deus é maior que qualquer problema..."</p>
+                            <div class="card-verse">
+                                <span class="verse-icon">📜</span>
+                                <em>"O Senhor é a minha força e o meu escudo" — Salmos 28:7</em>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 - Daniel -->
+                    <div class="preview-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/sample_daniel_lions.png" alt="Daniel na cova dos leões para colorir" loading="lazy">
+                            <div class="card-badge">Daniel 6</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Daniel e os Leões 🦁</h3>
+                            <p class="card-story">"Daniel orava todos os dias, mesmo quando foi proibido. Por isso, jogaram ele na cova dos leões! Mas Deus enviou um anjo que fechou a boca dos leões. Daniel foi salvo pela sua fé!"</p>
+                            <div class="card-verse">
+                                <span class="verse-icon">📜</span>
+                                <em>"O meu Deus enviou o seu anjo e fechou a boca dos leões" — Daniel 6:22</em>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 - Nativity -->
+                    <div class="preview-card">
+                        <div class="card-image-wrapper">
+                            <img src="images/sample_nativity.png" alt="Nascimento de Jesus para colorir" loading="lazy">
+                            <div class="card-badge">Lucas 2:1-20</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>O Nascimento de Jesus 🌟</h3>
+                            <p class="card-story">"Em uma noite especial, em Belém, nasceu o menino Jesus! Maria e José cuidaram dele em uma manjedoura. Uma estrela brilhante guiou os pastores até o Rei dos Reis..."</p>
+                            <div class="card-verse">
+                                <span class="verse-icon">📜</span>
+                                <em>"Porque hoje vos nasceu o Salvador, que é Cristo, o Senhor" — Lucas 2:11</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Anterior">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+                    </button>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Próximo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bible Stories Section -->
+    <section class="stories-section" id="historias">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">📖</span>
+                <h2 class="section-title">Histórias que Seu Filho Vai Aprender</h2>
+                <p class="section-subtitle">Cada desenho é acompanhado de uma história bíblica narrada em linguagem simples e carinhosa</p>
+            </div>
+            <div class="stories-grid">
+                <div class="story-chip animate-on-scroll"><span>🌍</span> A Criação do Mundo</div>
+                <div class="story-chip animate-on-scroll"><span>🍎</span> Adão e Eva</div>
+                <div class="story-chip animate-on-scroll"><span>🚢</span> A Arca de Noé</div>
+                <div class="story-chip animate-on-scroll"><span>🌈</span> O Arco-Íris de Deus</div>
+                <div class="story-chip animate-on-scroll"><span>⭐</span> Abraão e as Estrelas</div>
+                <div class="story-chip animate-on-scroll"><span>👶</span> O Bebê Moisés</div>
+                <div class="story-chip animate-on-scroll"><span>🌊</span> A Travessia do Mar</div>
+                <div class="story-chip animate-on-scroll"><span>📜</span> Os 10 Mandamentos</div>
+                <div class="story-chip animate-on-scroll"><span>🏰</span> A Queda de Jericó</div>
+                <div class="story-chip animate-on-scroll"><span>💪</span> Sansão e sua Força</div>
+                <div class="story-chip animate-on-scroll"><span>❤️</span> Rute e Noemi</div>
+                <div class="story-chip animate-on-scroll"><span>👑</span> O Rei Davi</div>
+                <div class="story-chip animate-on-scroll"><span>⚔️</span> Davi e Golias</div>
+                <div class="story-chip animate-on-scroll"><span>🧠</span> A Sabedoria de Salomão</div>
+                <div class="story-chip animate-on-scroll"><span>🔥</span> Elias e o Fogo do Céu</div>
+                <div class="story-chip animate-on-scroll"><span>🦁</span> Daniel e os Leões</div>
+                <div class="story-chip animate-on-scroll"><span>🐋</span> Jonas e a Baleia</div>
+                <div class="story-chip animate-on-scroll"><span>🌟</span> O Nascimento de Jesus</div>
+                <div class="story-chip animate-on-scroll"><span>🎁</span> Os Reis Magos</div>
+                <div class="story-chip animate-on-scroll"><span>🐟</span> A Pesca Milagrosa</div>
+                <div class="story-chip animate-on-scroll"><span>🍞</span> A Multiplicação dos Pães</div>
+                <div class="story-chip animate-on-scroll"><span>🚶</span> Jesus Anda sobre as Águas</div>
+                <div class="story-chip animate-on-scroll"><span>🐑</span> A Ovelha Perdida</div>
+                <div class="story-chip animate-on-scroll"><span>🏠</span> O Filho Pródigo</div>
+                <div class="story-chip animate-on-scroll"><span>🌿</span> A Entrada em Jerusalém</div>
+                <div class="story-chip animate-on-scroll"><span>✝️</span> A Ressurreição de Jesus</div>
+                <div class="story-chip animate-on-scroll"><span>🕊️</span> A Ascensão ao Céu</div>
+                <div class="story-chip animate-on-scroll"><span>🔥</span> O Dia de Pentecostes</div>
+                <div class="story-chip animate-on-scroll"><span>💡</span> E muito mais...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">🌟</span>
+                <h2 class="section-title">Por que os Pais Amam Este Livro?</h2>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon-wrap">
+                        <span class="benefit-icon">🧠</span>
+                    </div>
+                    <h3>Desenvolvimento Cognitivo</h3>
+                    <p>Colorir desenvolve coordenação motora, concentração e criatividade enquanto aprende.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon-wrap">
+                        <span class="benefit-icon">📖</span>
+                    </div>
+                    <h3>Histórias Narradas</h3>
+                    <p>Cada desenho conta a história completa com linguagem simples e passagens bíblicas.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon-wrap">
+                        <span class="benefit-icon">❤️</span>
+                    </div>
+                    <h3>Valores Cristãos</h3>
+                    <p>Plante sementes de fé, amor e esperança no coração do seu filho desde cedo.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon-wrap">
+                        <span class="benefit-icon">👨‍👩‍👧‍👦</span>
+                    </div>
+                    <h3>Momento em Família</h3>
+                    <p>Perfeito para ler e colorir junto com seu filho, criando memórias inesquecíveis.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon-wrap">
+                        <span class="benefit-icon">📱</span>
+                    </div>
+                    <h3>Menos Telas</h3>
+                    <p>Uma alternativa saudável e educativa ao tempo excessivo em celulares e tablets.</p>
+                </div>
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon-wrap">
+                        <span class="benefit-icon">⬇️</span>
+                    </div>
+                    <h3>Download Imediato</h3>
+                    <p>Receba o livro digital na hora! Imprima quantas vezes quiser, em casa ou na gráfica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Flip Animation Section -->
+    <section class="book-flip-section">
+        <div class="container">
+            <div class="flip-content animate-on-scroll">
+                <div class="flip-text">
+                    <h2>Um Livro que Parece <span class="highlight">Mágico!</span> ✨</h2>
+                    <p>Cada página é cuidadosamente ilustrada com desenhos encantadores que capturam a imaginação das crianças. 
+                    A história por trás de cada ilustração é contada de forma simples, com a passagem bíblica correspondente.</p>
+                    <div class="flip-features">
+                        <div class="flip-feature">
+                            <span>📝</span>
+                            <span>História narrada em cada página</span>
+                        </div>
+                        <div class="flip-feature">
+                            <span>📜</span>
+                            <span>Versículo bíblico destacado</span>
+                        </div>
+                        <div class="flip-feature">
+                            <span>🎨</span>
+                            <span>Desenhos grandes e detalhados</span>
+                        </div>
+                        <div class="flip-feature">
+                            <span>👶</span>
+                            <span>Linguagem infantil e carinhosa</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-book-container">
+                    <div class="open-book">
+                        <div class="book-page left-page">
+                            <div class="page-content">
+                                <h4>A Arca de Noé</h4>
+                                <p class="page-story">Há muito tempo, Deus viu que as pessoas estavam fazendo coisas erradas. Mas Noé era um homem bom! Deus pediu para Noé construir um grande barco...</p>
+                                <div class="page-verse">"Noé fez tudo como Deus mandou" — Gn 6:22</div>
+                            </div>
+                        </div>
+                        <div class="book-spine"></div>
+                        <div class="book-page right-page">
+                            <img src="images/sample_noah_ark.png" alt="Desenho da Arca de Noé">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="ofertas">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">🎁</span>
+                <h2 class="section-title">Escolha o Seu Livro!</h2>
+                <p class="section-subtitle">Quanto mais histórias, mais aprendizado para o seu filho! 📚</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <div class="plan-emoji">📘</div>
+                        <h3 class="plan-name">Essencial</h3>
+                        <p class="plan-desc">Perfeito para começar!</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="plan-feature-highlight">
+                            <span class="feature-number">20</span>
+                            <span class="feature-label">Desenhos + Histórias</span>
+                        </div>
+                        <ul class="plan-features">
+                            <li><span class="check">✅</span> 20 desenhos para colorir</li>
+                            <li><span class="check">✅</span> 20 histórias bíblicas narradas</li>
+                            <li><span class="check">✅</span> Passagens e versículos</li>
+                            <li><span class="check">✅</span> Download imediato (PDF)</li>
+                            <li><span class="check">✅</span> Imprima quantas vezes quiser</li>
+                            <li class="disabled"><span class="x-mark">❌</span> Guia para os pais</li>
+                            <li class="disabled"><span class="x-mark">❌</span> Atividades extras</li>
+                            <li class="disabled"><span class="x-mark">❌</span> Certificado de conclusão</li>
+                        </ul>
+                        <div class="plan-price">
+                            <span class="price-old">R$ 39,90</span>
+                            <div class="price-current">
+                                <span class="currency">R$</span>
+                                <span class="amount">19</span>
+                                <span class="cents">,90</span>
+                            </div>
+                            <span class="price-installment">ou 3x de R$ 7,30</span>
+                        </div>
+                        <a href="#" class="btn btn-outline btn-block">
+                            QUERO ESSE! 📘
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Plan 2 - Popular -->
+                <div class="pricing-card popular animate-on-scroll">
+                    <div class="popular-badge">⭐ MAIS VENDIDO</div>
+                    <div class="pricing-header">
+                        <div class="plan-emoji">📗</div>
+                        <h3 class="plan-name">Completo</h3>
+                        <p class="plan-desc">O preferido das famílias!</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="plan-feature-highlight">
+                            <span class="feature-number">40</span>
+                            <span class="feature-label">Desenhos + Histórias</span>
+                        </div>
+                        <ul class="plan-features">
+                            <li><span class="check">✅</span> 40 desenhos para colorir</li>
+                            <li><span class="check">✅</span> 40 histórias bíblicas narradas</li>
+                            <li><span class="check">✅</span> Passagens e versículos</li>
+                            <li><span class="check">✅</span> Download imediato (PDF)</li>
+                            <li><span class="check">✅</span> Imprima quantas vezes quiser</li>
+                            <li><span class="check">✅</span> Guia para os pais</li>
+                            <li class="disabled"><span class="x-mark">❌</span> Atividades extras</li>
+                            <li class="disabled"><span class="x-mark">❌</span> Certificado de conclusão</li>
+                        </ul>
+                        <div class="plan-price">
+                            <span class="price-old">R$ 59,90</span>
+                            <div class="price-current">
+                                <span class="currency">R$</span>
+                                <span class="amount">29</span>
+                                <span class="cents">,90</span>
+                            </div>
+                            <span class="price-installment">ou 4x de R$ 8,47</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block pulse-btn">
+                            QUERO ESSE! 📗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Plan 3 - Premium -->
+                <div class="pricing-card premium animate-on-scroll">
+                    <div class="premium-badge">👑 MELHOR VALOR</div>
+                    <div class="pricing-header">
+                        <div class="plan-emoji">📕</div>
+                        <h3 class="plan-name">Premium</h3>
+                        <p class="plan-desc">A experiência completa!</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="plan-feature-highlight">
+                            <span class="feature-number">100</span>
+                            <span class="feature-label">Desenhos + Histórias + Bônus</span>
+                        </div>
+                        <ul class="plan-features">
+                            <li><span class="check">✅</span> 100 desenhos para colorir</li>
+                            <li><span class="check">✅</span> 100 histórias bíblicas narradas</li>
+                            <li><span class="check">✅</span> Passagens e versículos</li>
+                            <li><span class="check">✅</span> Download imediato (PDF)</li>
+                            <li><span class="check">✅</span> Imprima quantas vezes quiser</li>
+                            <li><span class="check">✅</span> Guia completo para os pais</li>
+                            <li><span class="check">✅</span> 20 atividades extras (quiz, caça-palavras)</li>
+                            <li><span class="check">✅</span> Certificado de conclusão personalizado</li>
+                        </ul>
+                        <div class="bonus-list">
+                            <h4>🎁 BÔNUS EXCLUSIVOS:</h4>
+                            <div class="bonus-item">
+                                <span>🎵</span> Áudio das histórias narradas (MP3)
+                            </div>
+                            <div class="bonus-item">
+                                <span>🗓️</span> Calendário devocional infantil 30 dias
+                            </div>
+                            <div class="bonus-item">
+                                <span>🙏</span> E-book "Orações para Crianças"
+                            </div>
+                        </div>
+                        <div class="plan-price">
+                            <span class="price-old">R$ 119,90</span>
+                            <div class="price-current">
+                                <span class="currency">R$</span>
+                                <span class="amount">59</span>
+                                <span class="cents">,90</span>
+                            </div>
+                            <span class="price-installment">ou 6x de R$ 11,15</span>
+                        </div>
+                        <a href="#" class="btn btn-premium btn-block pulse-btn">
+                            QUERO O PREMIUM! 👑
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-guarantee animate-on-scroll">
+                <div class="guarantee-badge">
+                    <div class="guarantee-icon">🛡️</div>
+                    <div class="guarantee-text">
+                        <h4>Garantia Total de 7 Dias</h4>
+                        <p>Se não ficar satisfeito, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section" id="depoimentos">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">💬</span>
+                <h2 class="section-title">O que as Mamães e Papais Dizem</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Minha filha de 5 anos não larga! Ela fica horas colorindo e me pedindo para ler as histórias. Agora ela sabe contar a história de Noé todinha! Amei demais! 🥰"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div>
+                            <strong>Ana Paula S.</strong>
+                            <span>Mãe da Sofia, 5 anos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Comprei o Premium e valeu cada centavo! Os bônus são maravilhosos. Meu filho agora pede pra ouvir as histórias antes de dormir. Os desenhos são lindos e as histórias são perfeitas para a idade dele."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨</div>
+                        <div>
+                            <strong>Carlos M.</strong>
+                            <span>Pai do Pedro, 7 anos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Usamos na escola dominical e as crianças ficaram encantadas! As professoras amaram porque facilita muito o ensino. Cada história vem com o versículo certinho. Super recomendo! 🙏"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div>
+                            <strong>Priscila R.</strong>
+                            <span>Professora de escola dominical</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Meus netos amaram! Comprei como presente de aniversário e foi o melhor presente que já dei. Eles pedem pra colorir todos os dias. As histórias são contadas de um jeito que as crianças realmente entendem."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👵</div>
+                        <div>
+                            <strong>Dona Maria L.</strong>
+                            <span>Avó do Lucas e da Bia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-emoji">❓</span>
+                <h2 class="section-title">Perguntas Frequentes</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Para que idade é indicado?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O livro é indicado para crianças de 3 a 10 anos. Os desenhos são pensados para diferentes níveis de habilidade, e as histórias são narradas em linguagem simples que crianças de todas as idades conseguem entender.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Como recebo o livro?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Após a confirmação do pagamento, você recebe imediatamente o link para download do livro em formato PDF de alta qualidade. Você pode imprimir em casa ou em uma gráfica quantas vezes quiser!</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Posso imprimir mais de uma vez?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! O PDF é seu para sempre. Você pode imprimir quantas cópias quiser, quando quiser. Perfeito se a criança quiser colorir o mesmo desenho de novo ou se você tiver mais de um filho!</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Quais formas de pagamento?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceitamos cartão de crédito (parcelado), PIX, boleto bancário e débito. O pagamento é 100% seguro e processado pela plataforma Hotmart/Kiwify.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>E se eu não gostar?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Você tem 7 dias de garantia incondicional! Se por qualquer motivo não ficar satisfeito, basta enviar um e-mail e devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia!</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Qual a diferença entre os planos?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O plano <strong>Essencial</strong> tem 20 desenhos e histórias. O <strong>Completo</strong> tem 40 desenhos, histórias e guia para pais. O <strong>Premium</strong> tem 100 desenhos, histórias, atividades extras, certificado e bônus exclusivos como áudios das histórias, calendário devocional e e-book de orações!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <span class="cta-emoji">✝️</span>
+                <h2>Não perca esta oportunidade de <span class="highlight">plantar a Palavra de Deus</span> no coração do seu filho!</h2>
+                <p>Cada dia sem este livro é um dia a menos de aprendizado bíblico na vida do seu filho. Comece hoje mesmo!</p>
+                <div class="cta-timer">
+                    <span class="timer-label">⏰ Oferta expira em:</span>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">23</span>
+                            <span class="countdown-label">Horas</span>
+                        </div>
+                        <span class="countdown-separator">:</span>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">59</span>
+                            <span class="countdown-label">Min</span>
+                        </div>
+                        <span class="countdown-separator">:</span>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">59</span>
+                            <span class="countdown-label">Seg</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#ofertas" class="btn btn-primary btn-xl pulse-btn">
+                    <span>QUERO GARANTIR O MEU AGORA! 🎨</span>
+                </a>
+                <div class="cta-trust">
+                    <span>🔒 Pagamento 100% Seguro</span>
+                    <span>🛡️ Garantia de 7 Dias</span>
+                    <span>📧 Suporte por E-mail</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✝️</span>
+                    <span class="logo-text">Bíblia para Colorir</span>
+                    <p>Ensinando a Palavra de Deus através da arte e da imaginação.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Contato</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Bíblia para Colorir. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
